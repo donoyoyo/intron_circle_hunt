@@ -9,7 +9,7 @@ Hits to the same target are grouped together in the output file
 
 ======================================
 
-All files will need to be eddited to match your genome and gene model.
+All files will need to be edited to match your genome and gene model.
 
 circgenome.pl will create circles, exon-exon regions as well as unspliced exon-intron regions and negative control nonsense sequences
 
@@ -22,6 +22,7 @@ removeproblems.pl will remove tagets that have too many hits. This limit should 
 10percentblat.pl  10percentblat_rempro.pl  blat_rempro.pl  fastaandblat.pl  justblat.pl
 
 These are all scripts that blat the read files to the target file.
+
 10percent of the reads were used in several cases while developing the scripts.
 
 cntwalign.pl is a script to parse , collect and count the maf files using only the longest hit for a read and the longest hit
