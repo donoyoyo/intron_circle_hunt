@@ -40,7 +40,7 @@ SRR1049833
 );
 
 
-$longdir = "/media/donohue/917c1eff-6633-4add-be5f-d3e7d109df39/MinION_jul19_au24_2021_fasta_andblat/";
+$longdir = "/jul19_au24_2021_fasta_andblat/";
 #system("blat ../wtf_s21/hg19circ_remprob.fa $f.fa -out=maf $out -fastMap -minScore=70 ");
 
 foreach $f (@files){
